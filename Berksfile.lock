@@ -1,0 +1,7 @@
+DEPENDENCIES
+  ele-poller
+    path: .
+    metadata: true
+
+GRAPH
+  ele-poller (0.2.0)

@@ -1,0 +1,9 @@
+default['poller']['owner'] = 'root'
+default['poller']['group'] = 'root'
+default['poller']['repo']['baseurl'] = 'http://stable.poller.packages.cloudmonitoring.rackspace.com/debian'
+default['poller']['repo']['gpgkey'] = 'https://monitoring.api.rackspacecloud.com/pki/agent/linux.asc'
+default['poller']['repo']['managed'] = true
+default['poller']['monitoring_token'] = 'tokenawesome'
+default['poller']['monitoring_id'] = 'idawesome'
+default['poller']['monitoring_private_zones'] = 'pzDontletmegetinmyzone'
+default['poller']['enabled'] = true
